@@ -1,0 +1,1882 @@
+{
+  "pr_agent/cli.py": {
+    "mi": 43.94746658560447,
+    "rank": "A"
+  },
+  "pr_agent/cli_pip.py": {
+    "mi": 99.22752979025275,
+    "rank": "A"
+  },
+  "pr_agent/command_descriptions.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "pr_agent/config_loader.py": {
+    "mi": 68.1634792220934,
+    "rank": "A"
+  },
+  "pr_agent/config_security.py": {
+    "mi": 85.07812291464366,
+    "rank": "A"
+  },
+  "pr_agent/custom_merge_loader.py": {
+    "mi": 67.32905261247706,
+    "rank": "A"
+  },
+  "pr_agent/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "pr_agent/agent/pr_agent.py": {
+    "mi": 37.925244565762185,
+    "rank": "A"
+  },
+  "pr_agent/agent/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "pr_agent/algo/artifacts.py": {
+    "mi": 41.11046051819472,
+    "rank": "A"
+  },
+  "pr_agent/algo/cli_args.py": {
+    "mi": 51.651559627598694,
+    "rank": "A"
+  },
+  "pr_agent/algo/comment_identity.py": {
+    "mi": 42.6228013844921,
+    "rank": "A"
+  },
+  "pr_agent/algo/file_filter.py": {
+    "mi": 40.39769979277807,
+    "rank": "A"
+  },
+  "pr_agent/algo/git_patch_processing.py": {
+    "mi": 24.528252804813427,
+    "rank": "A"
+  },
+  "pr_agent/algo/inline_comment_dedup.py": {
+    "mi": 50.38661592355867,
+    "rank": "A"
+  },
+  "pr_agent/algo/language_handler.py": {
+    "mi": 60.908151001594845,
+    "rank": "A"
+  },
+  "pr_agent/algo/model_routing.py": {
+    "mi": 62.089720272863275,
+    "rank": "A"
+  },
+  "pr_agent/algo/output_models.py": {
+    "mi": 32.998037812094125,
+    "rank": "A"
+  },
+  "pr_agent/algo/output_sinks.py": {
+    "mi": 61.302899802658516,
+    "rank": "A"
+  },
+  "pr_agent/algo/prompt_fragments.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "pr_agent/algo/pr_processing.py": {
+    "mi": 8.202654034975374,
+    "rank": "C"
+  },
+  "pr_agent/algo/repo_context.py": {
+    "mi": 35.076349614408144,
+    "rank": "A"
+  },
+  "pr_agent/algo/review_finding_state.py": {
+    "mi": 21.564607097448786,
+    "rank": "A"
+  },
+  "pr_agent/algo/review_merge.py": {
+    "mi": 38.51077721850891,
+    "rank": "A"
+  },
+  "pr_agent/algo/run_details.py": {
+    "mi": 52.50563810497,
+    "rank": "A"
+  },
+  "pr_agent/algo/run_output.py": {
+    "mi": 45.173372747103116,
+    "rank": "A"
+  },
+  "pr_agent/algo/skills_loader.py": {
+    "mi": 43.672227898630275,
+    "rank": "A"
+  },
+  "pr_agent/algo/token_budget.py": {
+    "mi": 25.858936358102344,
+    "rank": "A"
+  },
+  "pr_agent/algo/token_handler.py": {
+    "mi": 50.41243157329631,
+    "rank": "A"
+  },
+  "pr_agent/algo/types.py": {
+    "mi": 79.76366469301246,
+    "rank": "A"
+  },
+  "pr_agent/algo/url_safety.py": {
+    "mi": 72.2775972791009,
+    "rank": "A"
+  },
+  "pr_agent/algo/utils.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "pr_agent/algo/__init__.py": {
+    "mi": 67.03375776509361,
+    "rank": "A"
+  },
+  "pr_agent/algo/ai_handlers/base_ai_handler.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "pr_agent/algo/ai_handlers/cloud_auth.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "pr_agent/algo/ai_handlers/langchain_ai_handler.py": {
+    "mi": 67.20704595319827,
+    "rank": "A"
+  },
+  "pr_agent/algo/ai_handlers/litellm_ai_handler.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "pr_agent/algo/ai_handlers/litellm_helpers.py": {
+    "mi": 9.956431224476335,
+    "rank": "B"
+  },
+  "pr_agent/algo/ai_handlers/openai_ai_handler.py": {
+    "mi": 74.79619232061903,
+    "rank": "A"
+  },
+  "pr_agent/git_providers/azuredevops_provider.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "pr_agent/git_providers/bitbucket_provider.py": {
+    "mi": 3.546134612938317,
+    "rank": "C"
+  },
+  "pr_agent/git_providers/bitbucket_server_provider.py": {
+    "mi": 10.605471245637565,
+    "rank": "B"
+  },
+  "pr_agent/git_providers/codecommit_client.py": {
+    "mi": 53.23807444814103,
+    "rank": "A"
+  },
+  "pr_agent/git_providers/codecommit_provider.py": {
+    "mi": 14.824348029985387,
+    "rank": "B"
+  },
+  "pr_agent/git_providers/diff_parsing.py": {
+    "mi": 62.27378714756597,
+    "rank": "A"
+  },
+  "pr_agent/git_providers/gerrit_provider.py": {
+    "mi": 25.698436267245622,
+    "rank": "A"
+  },
+  "pr_agent/git_providers/gitea_provider.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "pr_agent/git_providers/github_provider.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "pr_agent/git_providers/gitlab_provider.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "pr_agent/git_providers/git_provider.py": {
+    "mi": 5.957032562601253,
+    "rank": "C"
+  },
+  "pr_agent/git_providers/local_git_provider.py": {
+    "mi": 48.9409325369818,
+    "rank": "A"
+  },
+  "pr_agent/git_providers/plain_diff_provider.py": {
+    "mi": 48.00731545908801,
+    "rank": "A"
+  },
+  "pr_agent/git_providers/request_timeout.py": {
+    "mi": 56.682102698418795,
+    "rank": "A"
+  },
+  "pr_agent/git_providers/utils.py": {
+    "mi": 18.936908459283096,
+    "rank": "B"
+  },
+  "pr_agent/git_providers/__init__.py": {
+    "mi": 52.4774250702729,
+    "rank": "A"
+  },
+  "pr_agent/identity_providers/default_identity_provider.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "pr_agent/identity_providers/identity_provider.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "pr_agent/identity_providers/__init__.py": {
+    "mi": 74.17383745932607,
+    "rank": "A"
+  },
+  "pr_agent/log/__init__.py": {
+    "mi": 58.40905481345245,
+    "rank": "A"
+  },
+  "pr_agent/mosaico/auth.py": {
+    "mi": 54.010954381131434,
+    "rank": "A"
+  },
+  "pr_agent/mosaico/card.py": {
+    "mi": 80.16475796883155,
+    "rank": "A"
+  },
+  "pr_agent/mosaico/diff_provider.py": {
+    "mi": 48.27632228291323,
+    "rank": "A"
+  },
+  "pr_agent/mosaico/dispatch.py": {
+    "mi": 39.395913097604584,
+    "rank": "A"
+  },
+  "pr_agent/mosaico/env_bridge.py": {
+    "mi": 70.92805292807135,
+    "rank": "A"
+  },
+  "pr_agent/mosaico/executor.py": {
+    "mi": 58.461867747239275,
+    "rank": "A"
+  },
+  "pr_agent/mosaico/observability.py": {
+    "mi": 61.817948427443774,
+    "rank": "A"
+  },
+  "pr_agent/mosaico/provider_registration.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "pr_agent/mosaico/server.py": {
+    "mi": 74.03058277354675,
+    "rank": "A"
+  },
+  "pr_agent/mosaico/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "pr_agent/secret_providers/aws_secrets_manager_provider.py": {
+    "mi": 70.80499531134356,
+    "rank": "A"
+  },
+  "pr_agent/secret_providers/google_cloud_storage_secret_provider.py": {
+    "mi": 74.75613236826463,
+    "rank": "A"
+  },
+  "pr_agent/secret_providers/secret_provider.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "pr_agent/secret_providers/__init__.py": {
+    "mi": 81.78771692864316,
+    "rank": "A"
+  },
+  "pr_agent/servers/azuredevops_server_webhook.py": {
+    "mi": 33.80321704538303,
+    "rank": "A"
+  },
+  "pr_agent/servers/bitbucket_app.py": {
+    "mi": 25.601034613218133,
+    "rank": "A"
+  },
+  "pr_agent/servers/bitbucket_server_webhook.py": {
+    "mi": 43.81366865789615,
+    "rank": "A"
+  },
+  "pr_agent/servers/gerrit_server.py": {
+    "mi": 63.87889779317304,
+    "rank": "A"
+  },
+  "pr_agent/servers/gitea_app.py": {
+    "mi": 51.91581760950175,
+    "rank": "A"
+  },
+  "pr_agent/servers/github_action_runner.py": {
+    "mi": 22.459786572426413,
+    "rank": "A"
+  },
+  "pr_agent/servers/github_app.py": {
+    "mi": 23.972939399147958,
+    "rank": "A"
+  },
+  "pr_agent/servers/github_common.py": {
+    "mi": 72.57761828441753,
+    "rank": "A"
+  },
+  "pr_agent/servers/github_lambda_webhook.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "pr_agent/servers/github_polling.py": {
+    "mi": 23.26831266729756,
+    "rank": "A"
+  },
+  "pr_agent/servers/gitlab_lambda_webhook.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "pr_agent/servers/gitlab_webhook.py": {
+    "mi": 29.929500305934795,
+    "rank": "A"
+  },
+  "pr_agent/servers/gunicorn_config.py": {
+    "mi": 42.96709845367839,
+    "rank": "A"
+  },
+  "pr_agent/servers/help.py": {
+    "mi": 57.66894540477095,
+    "rank": "A"
+  },
+  "pr_agent/servers/request_body_limit.py": {
+    "mi": 48.56703201219235,
+    "rank": "A"
+  },
+  "pr_agent/servers/utils.py": {
+    "mi": 30.9044556404864,
+    "rank": "A"
+  },
+  "pr_agent/servers/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "pr_agent/telemetry/config.py": {
+    "mi": 66.94270672569239,
+    "rank": "A"
+  },
+  "pr_agent/telemetry/meter.py": {
+    "mi": 58.62444850193983,
+    "rank": "A"
+  },
+  "pr_agent/telemetry/prometheus.py": {
+    "mi": 65.7897397910942,
+    "rank": "A"
+  },
+  "pr_agent/telemetry/prometheus_multiproc.py": {
+    "mi": 93.21605247666832,
+    "rank": "A"
+  },
+  "pr_agent/telemetry/registry.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "pr_agent/telemetry/shutdown.py": {
+    "mi": 92.33612618729258,
+    "rank": "A"
+  },
+  "pr_agent/telemetry/tracer.py": {
+    "mi": 60.828917353939495,
+    "rank": "A"
+  },
+  "pr_agent/telemetry/types.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "pr_agent/telemetry/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "pr_agent/tools/progress_comment.py": {
+    "mi": 59.10652460264697,
+    "rank": "A"
+  },
+  "pr_agent/tools/pr_add_docs.py": {
+    "mi": 31.046605135231456,
+    "rank": "A"
+  },
+  "pr_agent/tools/pr_code_suggestions.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "pr_agent/tools/pr_config.py": {
+    "mi": 68.3595210638518,
+    "rank": "A"
+  },
+  "pr_agent/tools/pr_description.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "pr_agent/tools/pr_generate_labels.py": {
+    "mi": 58.568980197919885,
+    "rank": "A"
+  },
+  "pr_agent/tools/pr_help_docs.py": {
+    "mi": 25.441696071512794,
+    "rank": "A"
+  },
+  "pr_agent/tools/pr_help_message.py": {
+    "mi": 13.714807206348516,
+    "rank": "B"
+  },
+  "pr_agent/tools/pr_line_questions.py": {
+    "mi": 49.34025142707946,
+    "rank": "A"
+  },
+  "pr_agent/tools/pr_questions.py": {
+    "mi": 39.81940043095887,
+    "rank": "A"
+  },
+  "pr_agent/tools/pr_reviewer.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "pr_agent/tools/pr_similar_issue.py": {
+    "mi": 8.621830385327868,
+    "rank": "C"
+  },
+  "pr_agent/tools/pr_update_changelog.py": {
+    "mi": 37.905846227117515,
+    "rank": "A"
+  },
+  "pr_agent/tools/ticket_pr_compliance_check.py": {
+    "mi": 4.9775104414453635,
+    "rank": "C"
+  },
+  "pr_agent/tools/__init__.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "tests/e2e_tests/e2e_utils.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "tests/e2e_tests/langchain_ai_handler.py": {
+    "mi": 65.561978572291,
+    "rank": "A"
+  },
+  "tests/e2e_tests/test_bitbucket_app.py": {
+    "mi": 69.50924095535015,
+    "rank": "A"
+  },
+  "tests/e2e_tests/test_gitea_app.py": {
+    "mi": 36.24140297336293,
+    "rank": "A"
+  },
+  "tests/e2e_tests/test_github_app.py": {
+    "mi": 73.46659581549153,
+    "rank": "A"
+  },
+  "tests/e2e_tests/test_gitlab_webhook.py": {
+    "mi": 67.6352682894486,
+    "rank": "A"
+  },
+  "tests/health_test/main.py": {
+    "mi": 66.31490251286169,
+    "rank": "A"
+  },
+  "tests/health_test/test_github_smoke.py": {
+    "mi": 60.76114582769429,
+    "rank": "A"
+  },
+  "tests/packaging/test_help_docs_package.py": {
+    "mi": 30.228329004566145,
+    "rank": "A"
+  },
+  "tests/unittest/conftest.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "tests/unittest/test_add_docs_indent_anchor.py": {
+    "mi": 60.630500207662884,
+    "rank": "A"
+  },
+  "tests/unittest/test_add_docs_line_range_guard.py": {
+    "mi": 58.6501689383796,
+    "rank": "A"
+  },
+  "tests/unittest/test_add_docs_missing_key.py": {
+    "mi": 29.210362249291368,
+    "rank": "A"
+  },
+  "tests/unittest/test_add_docs_trigger.py": {
+    "mi": 74.77466961584264,
+    "rank": "A"
+  },
+  "tests/unittest/test_apply_repo_settings.py": {
+    "mi": 56.65507367417806,
+    "rank": "A"
+  },
+  "tests/unittest/test_apply_repo_settings_security.py": {
+    "mi": 37.5042884028664,
+    "rank": "A"
+  },
+  "tests/unittest/test_artifacts.py": {
+    "mi": 17.978941040445793,
+    "rank": "B"
+  },
+  "tests/unittest/test_ask_image_url_safety.py": {
+    "mi": 54.66710404430038,
+    "rank": "A"
+  },
+  "tests/unittest/test_attempt_token_budget.py": {
+    "mi": 11.987212993008088,
+    "rank": "B"
+  },
+  "tests/unittest/test_aws_secrets_manager_logging.py": {
+    "mi": 41.633040548503864,
+    "rank": "A"
+  },
+  "tests/unittest/test_aws_secrets_manager_provider.py": {
+    "mi": 60.4624082829755,
+    "rank": "A"
+  },
+  "tests/unittest/test_azure_devops_comment.py": {
+    "mi": 67.6632018569013,
+    "rank": "A"
+  },
+  "tests/unittest/test_azure_devops_incremental.py": {
+    "mi": 31.7057935254547,
+    "rank": "A"
+  },
+  "tests/unittest/test_azure_devops_parsing.py": {
+    "mi": 91.29399095592527,
+    "rank": "A"
+  },
+  "tests/unittest/test_azure_devops_provider.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/unittest/test_azure_devops_webhook_auth.py": {
+    "mi": 57.85323518803377,
+    "rank": "A"
+  },
+  "tests/unittest/test_azure_devops_webhook_comments.py": {
+    "mi": 39.27739722318646,
+    "rank": "A"
+  },
+  "tests/unittest/test_bad_extension_case.py": {
+    "mi": 56.07478676362347,
+    "rank": "A"
+  },
+  "tests/unittest/test_bitbucket_app_lifecycle_jwt.py": {
+    "mi": 33.71136055823748,
+    "rank": "A"
+  },
+  "tests/unittest/test_bitbucket_app_offload.py": {
+    "mi": 33.5032959079193,
+    "rank": "A"
+  },
+  "tests/unittest/test_bitbucket_app_sensitive_logging.py": {
+    "mi": 26.300546253211603,
+    "rank": "A"
+  },
+  "tests/unittest/test_bitbucket_diff_line_counts.py": {
+    "mi": 41.99905205656047,
+    "rank": "A"
+  },
+  "tests/unittest/test_bitbucket_fork_safe_secret_provider.py": {
+    "mi": 42.095080538159806,
+    "rank": "A"
+  },
+  "tests/unittest/test_bitbucket_inline_comment_dedup.py": {
+    "mi": 48.0125469521183,
+    "rank": "A"
+  },
+  "tests/unittest/test_bitbucket_provider.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/unittest/test_bitbucket_push_dedupe.py": {
+    "mi": 41.026405774569426,
+    "rank": "A"
+  },
+  "tests/unittest/test_bitbucket_server_clone_credentials.py": {
+    "mi": 51.56974819005597,
+    "rank": "A"
+  },
+  "tests/unittest/test_bitbucket_server_webhook_auth.py": {
+    "mi": 40.65579460949461,
+    "rank": "A"
+  },
+  "tests/unittest/test_botocore_sensitive_logging.py": {
+    "mi": 40.44822692572601,
+    "rank": "A"
+  },
+  "tests/unittest/test_certifi_pin_policy.py": {
+    "mi": 94.04455719723613,
+    "rank": "A"
+  },
+  "tests/unittest/test_changelog_code_fence_stripping.py": {
+    "mi": 58.11160108897243,
+    "rank": "A"
+  },
+  "tests/unittest/test_chunk_progress_reporting.py": {
+    "mi": 17.56211308197618,
+    "rank": "B"
+  },
+  "tests/unittest/test_chunk_size_numeric_coercion.py": {
+    "mi": 49.483539133346405,
+    "rank": "A"
+  },
+  "tests/unittest/test_ci_python_version_coverage.py": {
+    "mi": 70.76452902015019,
+    "rank": "A"
+  },
+  "tests/unittest/test_clip_tokens.py": {
+    "mi": 43.493962742030526,
+    "rank": "A"
+  },
+  "tests/unittest/test_clip_tokens_invalid_budget.py": {
+    "mi": 50.101270752028086,
+    "rank": "A"
+  },
+  "tests/unittest/test_cli_args_security.py": {
+    "mi": 52.228970205326654,
+    "rank": "A"
+  },
+  "tests/unittest/test_cli_artifact_context.py": {
+    "mi": 41.26062044046389,
+    "rank": "A"
+  },
+  "tests/unittest/test_cli_command_tokenization.py": {
+    "mi": 60.04961326810151,
+    "rank": "A"
+  },
+  "tests/unittest/test_cli_config_branch.py": {
+    "mi": 50.8041278705385,
+    "rank": "A"
+  },
+  "tests/unittest/test_cli_exit_status.py": {
+    "mi": 19.975764372303043,
+    "rank": "A"
+  },
+  "tests/unittest/test_cli_plain_diff_mode.py": {
+    "mi": 30.161274065525053,
+    "rank": "A"
+  },
+  "tests/unittest/test_clone_credential_redaction.py": {
+    "mi": 42.99518051993399,
+    "rank": "A"
+  },
+  "tests/unittest/test_codecommit_client.py": {
+    "mi": 40.807774669282026,
+    "rank": "A"
+  },
+  "tests/unittest/test_codecommit_provider.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/unittest/test_code_suggestions_comment_identity.py": {
+    "mi": 37.363409993931114,
+    "rank": "A"
+  },
+  "tests/unittest/test_code_suggestions_history_cap.py": {
+    "mi": 63.10257126515057,
+    "rank": "A"
+  },
+  "tests/unittest/test_code_suggestion_thread_context.py": {
+    "mi": 46.54639261903325,
+    "rank": "A"
+  },
+  "tests/unittest/test_command_descriptions.py": {
+    "mi": 47.17876305323715,
+    "rank": "A"
+  },
+  "tests/unittest/test_command_hash_tokenization.py": {
+    "mi": 68.42398531484368,
+    "rank": "A"
+  },
+  "tests/unittest/test_comment_command_gating.py": {
+    "mi": 29.477878514680743,
+    "rank": "A"
+  },
+  "tests/unittest/test_comment_reactions.py": {
+    "mi": 29.606037225397404,
+    "rank": "A"
+  },
+  "tests/unittest/test_compressed_diff_token_sort.py": {
+    "mi": 63.692665596905975,
+    "rank": "A"
+  },
+  "tests/unittest/test_config_dead_keys.py": {
+    "mi": 64.87412786026117,
+    "rank": "A"
+  },
+  "tests/unittest/test_config_loader_secrets.py": {
+    "mi": 72.6929238806471,
+    "rank": "A"
+  },
+  "tests/unittest/test_config_override_value_parsing.py": {
+    "mi": 67.90686179760866,
+    "rank": "A"
+  },
+  "tests/unittest/test_config_reference.py": {
+    "mi": 67.0592081360335,
+    "rank": "A"
+  },
+  "tests/unittest/test_config_yaml_rendering.py": {
+    "mi": 53.21019877688484,
+    "rank": "A"
+  },
+  "tests/unittest/test_contribution_time_estimate_shape.py": {
+    "mi": 53.85402600804457,
+    "rank": "A"
+  },
+  "tests/unittest/test_convert_to_markdown.py": {
+    "mi": 46.698153832112425,
+    "rank": "A"
+  },
+  "tests/unittest/test_custom_labels_default_set.py": {
+    "mi": 55.86800217721804,
+    "rank": "A"
+  },
+  "tests/unittest/test_custom_merge_loader_security.py": {
+    "mi": 57.67776106161702,
+    "rank": "A"
+  },
+  "tests/unittest/test_delete_hunks.py": {
+    "mi": 77.364157007363,
+    "rank": "A"
+  },
+  "tests/unittest/test_diff_attempt_budget.py": {
+    "mi": 33.01166213765031,
+    "rank": "A"
+  },
+  "tests/unittest/test_diff_eof_marker_literals.py": {
+    "mi": 49.76880510535223,
+    "rank": "A"
+  },
+  "tests/unittest/test_diff_parsing.py": {
+    "mi": 57.187025108547324,
+    "rank": "A"
+  },
+  "tests/unittest/test_diff_pipeline_core.py": {
+    "mi": 19.904184481357643,
+    "rank": "A"
+  },
+  "tests/unittest/test_diff_remaining_files.py": {
+    "mi": 51.41177110809458,
+    "rank": "A"
+  },
+  "tests/unittest/test_docker_hardening.py": {
+    "mi": 64.57381986651357,
+    "rank": "A"
+  },
+  "tests/unittest/test_docs_help_corpus.py": {
+    "mi": 62.61776723735048,
+    "rank": "A"
+  },
+  "tests/unittest/test_docs_nav_parity.py": {
+    "mi": 72.10736849729714,
+    "rank": "A"
+  },
+  "tests/unittest/test_docs_urls.py": {
+    "mi": 74.11244952771823,
+    "rank": "A"
+  },
+  "tests/unittest/test_effort_bar_clamp.py": {
+    "mi": 47.46577607699686,
+    "rank": "A"
+  },
+  "tests/unittest/test_estimation_factor_coercion.py": {
+    "mi": 60.03533596659004,
+    "rank": "A"
+  },
+  "tests/unittest/test_extend_patch.py": {
+    "mi": 32.52544626659647,
+    "rank": "A"
+  },
+  "tests/unittest/test_extract_issue_from_branch.py": {
+    "mi": 51.26571119603545,
+    "rank": "A"
+  },
+  "tests/unittest/test_extract_relevant_lines_str.py": {
+    "mi": 42.95132937921149,
+    "rank": "A"
+  },
+  "tests/unittest/test_extra_config_url.py": {
+    "mi": 19.55673172210555,
+    "rank": "A"
+  },
+  "tests/unittest/test_extra_lines_numeric_coercion.py": {
+    "mi": 56.79796875601905,
+    "rank": "A"
+  },
+  "tests/unittest/test_fallback_model_normalization.py": {
+    "mi": 62.74334392173627,
+    "rank": "A"
+  },
+  "tests/unittest/test_fetching_sub_issues.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "tests/unittest/test_file_filter.py": {
+    "mi": 16.22222850105969,
+    "rank": "B"
+  },
+  "tests/unittest/test_find_line_number_of_relevant_line_in_file.py": {
+    "mi": 45.99092701897714,
+    "rank": "A"
+  },
+  "tests/unittest/test_fix_json_escape_char.py": {
+    "mi": 60.85725565160544,
+    "rank": "A"
+  },
+  "tests/unittest/test_fix_output.py": {
+    "mi": 74.70944870875455,
+    "rank": "A"
+  },
+  "tests/unittest/test_fresh_vars_functionality.py": {
+    "mi": 55.570174395314545,
+    "rank": "A"
+  },
+  "tests/unittest/test_generated_label_allowlist.py": {
+    "mi": 38.06507987821756,
+    "rank": "A"
+  },
+  "tests/unittest/test_generate_labels_entry_shape.py": {
+    "mi": 30.599254021016733,
+    "rank": "A"
+  },
+  "tests/unittest/test_gerrit_ask_dispatch.py": {
+    "mi": 43.36017318724572,
+    "rank": "A"
+  },
+  "tests/unittest/test_gerrit_provider.py": {
+    "mi": 16.874191939663152,
+    "rank": "B"
+  },
+  "tests/unittest/test_gerrit_webhook_authentication.py": {
+    "mi": 52.45919783630696,
+    "rank": "A"
+  },
+  "tests/unittest/test_get_fence.py": {
+    "mi": 62.69694223111286,
+    "rank": "A"
+  },
+  "tests/unittest/test_get_max_tokens.py": {
+    "mi": 7.294617307300798,
+    "rank": "C"
+  },
+  "tests/unittest/test_get_version.py": {
+    "mi": 60.70951977526539,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitea_comment_webhooks.py": {
+    "mi": 52.80843255485284,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitea_e2e_branch_api.py": {
+    "mi": 34.111851933974776,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitea_e2e_results.py": {
+    "mi": 24.70879914557197,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitea_provider.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/unittest/test_github_action_output.py": {
+    "mi": 53.15631482231242,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_action_runner_core.py": {
+    "mi": 4.893681065235497,
+    "rank": "C"
+  },
+  "tests/unittest/test_github_app_auth.py": {
+    "mi": 58.97854111736047,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_app_timeout_core.py": {
+    "mi": 23.386935395660586,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_common.py": {
+    "mi": 73.930171290845,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_empty_diff_cache.py": {
+    "mi": 21.97620336180184,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_incremental_default.py": {
+    "mi": 57.41100703939976,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_inline_comment_fallback.py": {
+    "mi": 88.80321289986396,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_issue_content.py": {
+    "mi": 54.71263685380501,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_issue_reference_extraction.py": {
+    "mi": 31.77388049783952,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_line_link_range.py": {
+    "mi": 58.89960919258819,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_polling.py": {
+    "mi": 11.54187171172522,
+    "rank": "B"
+  },
+  "tests/unittest/test_github_polling_notifications.py": {
+    "mi": 22.571952378253002,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_polling_settings.py": {
+    "mi": 60.17479962164954,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_provider_check_runs.py": {
+    "mi": 45.860432010170186,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_provider_comments.py": {
+    "mi": 12.896931986363722,
+    "rank": "B"
+  },
+  "tests/unittest/test_github_provider_empty_commits.py": {
+    "mi": 51.93269803567286,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_provider_exception_narrowing.py": {
+    "mi": 49.14500199102202,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_provider_fallback_verification.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_provider_file_content.py": {
+    "mi": 41.96387236652053,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_provider_import.py": {
+    "mi": 99.19700985878329,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_provider_incremental.py": {
+    "mi": 59.86994709048256,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_provider_labels.py": {
+    "mi": 86.25184729321322,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_provider_repo_settings.py": {
+    "mi": 59.488255920653614,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_provider_settings.py": {
+    "mi": 51.58783293939683,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_provider_urls_and_diffs.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/unittest/test_github_webhook_delivery.py": {
+    "mi": 32.736212388686695,
+    "rank": "A"
+  },
+  "tests/unittest/test_github_webhook_delivery_failures.py": {
+    "mi": 45.29019253997939,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitlab_batch_publish_suggestions.py": {
+    "mi": 11.995080529139944,
+    "rank": "B"
+  },
+  "tests/unittest/test_gitlab_diffs_api.py": {
+    "mi": 10.863377325923189,
+    "rank": "B"
+  },
+  "tests/unittest/test_gitlab_diff_version_fetch.py": {
+    "mi": 55.615604392516,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitlab_file_read_efficiency.py": {
+    "mi": 68.72301924445021,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitlab_fixed_threads.py": {
+    "mi": 49.010482471847446,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitlab_impossible_file_reads.py": {
+    "mi": 46.41478527081556,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitlab_language_cache.py": {
+    "mi": 56.69443925539233,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitlab_project_reads.py": {
+    "mi": 40.379441620000335,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitlab_provider.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/unittest/test_gitlab_provider_exception_narrowing.py": {
+    "mi": 62.533654753205106,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitlab_provider_mr_url.py": {
+    "mi": 46.795348060696995,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitlab_provider_repo_settings.py": {
+    "mi": 34.10913256480699,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitlab_publish_guard.py": {
+    "mi": 50.8878005430779,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitlab_reaction_removal.py": {
+    "mi": 66.68028218186754,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitlab_reaction_requests.py": {
+    "mi": 58.93360310722887,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitlab_reviewer_assignment.py": {
+    "mi": 33.91233403638708,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitlab_search_line.py": {
+    "mi": 56.10097215942493,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitlab_ticket_requests.py": {
+    "mi": 33.20612678997426,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitlab_webhook_outcome_reactions.py": {
+    "mi": 51.27923294477734,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitlab_webhook_port.py": {
+    "mi": 55.28316031009344,
+    "rank": "A"
+  },
+  "tests/unittest/test_gitlab_webhook_secret_provider.py": {
+    "mi": 31.25884636804625,
+    "rank": "A"
+  },
+  "tests/unittest/test_git_provider_code_suggestions.py": {
+    "mi": 69.54344631962154,
+    "rank": "A"
+  },
+  "tests/unittest/test_git_provider_description_recognition.py": {
+    "mi": 56.270082947108875,
+    "rank": "A"
+  },
+  "tests/unittest/test_git_provider_head_sha.py": {
+    "mi": 71.60208331677929,
+    "rank": "A"
+  },
+  "tests/unittest/test_git_provider_lazy_imports.py": {
+    "mi": 62.258916677135744,
+    "rank": "A"
+  },
+  "tests/unittest/test_git_provider_line_link_contract.py": {
+    "mi": 27.655732629654683,
+    "rank": "A"
+  },
+  "tests/unittest/test_git_provider_method_contract.py": {
+    "mi": 29.529083388464276,
+    "rank": "A"
+  },
+  "tests/unittest/test_git_provider_utils.py": {
+    "mi": 37.23573818914111,
+    "rank": "A"
+  },
+  "tests/unittest/test_global_settings_cache_key.py": {
+    "mi": 65.50538351681566,
+    "rank": "A"
+  },
+  "tests/unittest/test_google_cloud_storage_secret_provider.py": {
+    "mi": 58.32687666756229,
+    "rank": "A"
+  },
+  "tests/unittest/test_google_cloud_storage_secret_provider_logging.py": {
+    "mi": 40.182161580584435,
+    "rank": "A"
+  },
+  "tests/unittest/test_gunicorn_config.py": {
+    "mi": 45.689314099964335,
+    "rank": "A"
+  },
+  "tests/unittest/test_handle_patch_deletions.py": {
+    "mi": 73.47802200141477,
+    "rank": "A"
+  },
+  "tests/unittest/test_help_docs_disabled.py": {
+    "mi": 81.81440559519051,
+    "rank": "A"
+  },
+  "tests/unittest/test_hidden_comment_markers.py": {
+    "mi": 37.48977857425841,
+    "rank": "A"
+  },
+  "tests/unittest/test_hunk_header_parse_guard.py": {
+    "mi": 46.99665855002396,
+    "rank": "A"
+  },
+  "tests/unittest/test_ignore_repositories.py": {
+    "mi": 66.72381776488098,
+    "rank": "A"
+  },
+  "tests/unittest/test_inline_comment_dedup.py": {
+    "mi": 13.796343667183887,
+    "rank": "B"
+  },
+  "tests/unittest/test_inline_comment_exact_line_match.py": {
+    "mi": 50.955302547432446,
+    "rank": "A"
+  },
+  "tests/unittest/test_invalid_ignore_pattern_warning.py": {
+    "mi": 52.01220524760161,
+    "rank": "A"
+  },
+  "tests/unittest/test_jinja_sandboxed_environment.py": {
+    "mi": 36.82034628704087,
+    "rank": "A"
+  },
+  "tests/unittest/test_jira_ticket_extraction.py": {
+    "mi": 16.288342744531917,
+    "rank": "B"
+  },
+  "tests/unittest/test_langchain_optional_dependency.py": {
+    "mi": 63.01788721839533,
+    "rank": "A"
+  },
+  "tests/unittest/test_language_detection_suffixes.py": {
+    "mi": 72.87549106448769,
+    "rank": "A"
+  },
+  "tests/unittest/test_language_file_matcher.py": {
+    "mi": 53.782024430874365,
+    "rank": "A"
+  },
+  "tests/unittest/test_language_handler.py": {
+    "mi": 67.1421468613041,
+    "rank": "A"
+  },
+  "tests/unittest/test_large_diff_no_progress.py": {
+    "mi": 49.06724849434712,
+    "rank": "A"
+  },
+  "tests/unittest/test_line_number_empty_patch_guard.py": {
+    "mi": 53.70542167132098,
+    "rank": "A"
+  },
+  "tests/unittest/test_linked_ticket_token_budget.py": {
+    "mi": 23.711028092903945,
+    "rank": "A"
+  },
+  "tests/unittest/test_litellm_api_key_guard.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/unittest/test_litellm_aws_async_preparation.py": {
+    "mi": 25.306704823521752,
+    "rank": "A"
+  },
+  "tests/unittest/test_litellm_aws_error_logging.py": {
+    "mi": 46.602042829721,
+    "rank": "A"
+  },
+  "tests/unittest/test_litellm_bedrock_model_id.py": {
+    "mi": 45.45558976247938,
+    "rank": "A"
+  },
+  "tests/unittest/test_litellm_cache_control_injection_points.py": {
+    "mi": 37.70317130803887,
+    "rank": "A"
+  },
+  "tests/unittest/test_litellm_callback_drain.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/unittest/test_litellm_callback_metadata.py": {
+    "mi": 63.611138803104176,
+    "rank": "A"
+  },
+  "tests/unittest/test_litellm_chat_completion_core.py": {
+    "mi": 17.465594426394176,
+    "rank": "B"
+  },
+  "tests/unittest/test_litellm_claude_adaptive_thinking.py": {
+    "mi": 28.52113645830785,
+    "rank": "A"
+  },
+  "tests/unittest/test_litellm_claude_extended_thinking.py": {
+    "mi": 61.521504754890195,
+    "rank": "A"
+  },
+  "tests/unittest/test_litellm_custom_provider.py": {
+    "mi": 22.26936218257605,
+    "rank": "A"
+  },
+  "tests/unittest/test_litellm_databricks_provider.py": {
+    "mi": 23.935248884152415,
+    "rank": "A"
+  },
+  "tests/unittest/test_litellm_error_surfacing.py": {
+    "mi": 52.84691476695115,
+    "rank": "A"
+  },
+  "tests/unittest/test_litellm_extra_body.py": {
+    "mi": 68.72301924445021,
+    "rank": "A"
+  },
+  "tests/unittest/test_litellm_future_claude_fallbacks.py": {
+    "mi": 73.79939715085312,
+    "rank": "A"
+  },
+  "tests/unittest/test_litellm_imds.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/unittest/test_litellm_max_output_tokens.py": {
+    "mi": 27.07538389510076,
+    "rank": "A"
+  },
+  "tests/unittest/test_litellm_openrouter_controls.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/unittest/test_litellm_otel_wiring.py": {
+    "mi": 72.90650676757535,
+    "rank": "A"
+  },
+  "tests/unittest/test_litellm_private_imports.py": {
+    "mi": 93.32501708157146,
+    "rank": "A"
+  },
+  "tests/unittest/test_litellm_reasoning_effort.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/unittest/test_litellm_request_user_field.py": {
+    "mi": 57.025523454351706,
+    "rank": "A"
+  },
+  "tests/unittest/test_litellm_retry_config.py": {
+    "mi": 56.03271660304752,
+    "rank": "A"
+  },
+  "tests/unittest/test_litellm_run_details.py": {
+    "mi": 26.206200641386136,
+    "rank": "A"
+  },
+  "tests/unittest/test_litellm_temperature_probe.py": {
+    "mi": 72.50762693241981,
+    "rank": "A"
+  },
+  "tests/unittest/test_load_large_diff_identical.py": {
+    "mi": 67.28666784000676,
+    "rank": "A"
+  },
+  "tests/unittest/test_load_yaml.py": {
+    "mi": 29.190491660578495,
+    "rank": "A"
+  },
+  "tests/unittest/test_load_yaml_closing_fence.py": {
+    "mi": 68.44385340235041,
+    "rank": "A"
+  },
+  "tests/unittest/test_load_yaml_trailing_text.py": {
+    "mi": 73.32515675446375,
+    "rank": "A"
+  },
+  "tests/unittest/test_load_yaml_unparseable.py": {
+    "mi": 45.79758683114508,
+    "rank": "A"
+  },
+  "tests/unittest/test_local_diff_cache.py": {
+    "mi": 60.42917396326843,
+    "rank": "A"
+  },
+  "tests/unittest/test_local_git_provider.py": {
+    "mi": 34.292575915419974,
+    "rank": "A"
+  },
+  "tests/unittest/test_logging_structured_payloads.py": {
+    "mi": 53.005604230021106,
+    "rank": "A"
+  },
+  "tests/unittest/test_log_import.py": {
+    "mi": 98.72409101799657,
+    "rank": "A"
+  },
+  "tests/unittest/test_markdown_render_side_effect.py": {
+    "mi": 57.370785370580094,
+    "rank": "A"
+  },
+  "tests/unittest/test_markdown_ticket_output_core.py": {
+    "mi": 15.308970748110674,
+    "rank": "B"
+  },
+  "tests/unittest/test_max_tokens_numeric_coercion.py": {
+    "mi": 69.6197062630535,
+    "rank": "A"
+  },
+  "tests/unittest/test_model_routing.py": {
+    "mi": 40.791787826462965,
+    "rank": "A"
+  },
+  "tests/unittest/test_mosaico_a2a_roundtrip.py": {
+    "mi": 15.768122884599405,
+    "rank": "B"
+  },
+  "tests/unittest/test_mosaico_auth.py": {
+    "mi": 61.41037241770828,
+    "rank": "A"
+  },
+  "tests/unittest/test_mosaico_card.py": {
+    "mi": 47.963824055391775,
+    "rank": "A"
+  },
+  "tests/unittest/test_mosaico_env_bridge.py": {
+    "mi": 40.13814361212968,
+    "rank": "A"
+  },
+  "tests/unittest/test_mosaico_executor.py": {
+    "mi": 45.08901124153895,
+    "rank": "A"
+  },
+  "tests/unittest/test_mosaico_health.py": {
+    "mi": 10.701821343031671,
+    "rank": "B"
+  },
+  "tests/unittest/test_mosaico_isolation.py": {
+    "mi": 57.72866625895611,
+    "rank": "A"
+  },
+  "tests/unittest/test_mosaico_metadata.py": {
+    "mi": 57.695390192587574,
+    "rank": "A"
+  },
+  "tests/unittest/test_mosaico_observability_deps.py": {
+    "mi": 80.40410186304533,
+    "rank": "A"
+  },
+  "tests/unittest/test_mosaico_observability_lifecycle.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "tests/unittest/test_mosaico_provider.py": {
+    "mi": 34.7083747043664,
+    "rank": "A"
+  },
+  "tests/unittest/test_mosaico_router.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/unittest/test_mosaico_smoke.py": {
+    "mi": 62.299902521900435,
+    "rank": "A"
+  },
+  "tests/unittest/test_numbered_hunk_rendering.py": {
+    "mi": 55.70889944234394,
+    "rank": "A"
+  },
+  "tests/unittest/test_openai_compat_handler_retry.py": {
+    "mi": 51.477381414189495,
+    "rank": "A"
+  },
+  "tests/unittest/test_optional_provider_dependencies.py": {
+    "mi": 44.18113910087849,
+    "rank": "A"
+  },
+  "tests/unittest/test_output_models.py": {
+    "mi": 20.016085880267852,
+    "rank": "A"
+  },
+  "tests/unittest/test_parse_code_suggestion.py": {
+    "mi": 84.49091850113989,
+    "rank": "A"
+  },
+  "tests/unittest/test_per_directory_settings.py": {
+    "mi": 0.6907331948020943,
+    "rank": "C"
+  },
+  "tests/unittest/test_plain_diff_mode_e2e.py": {
+    "mi": 62.70240071900747,
+    "rank": "A"
+  },
+  "tests/unittest/test_plain_diff_provider.py": {
+    "mi": 45.30511746348943,
+    "rank": "A"
+  },
+  "tests/unittest/test_prepare_command_arg_validation.py": {
+    "mi": 51.25457360710008,
+    "rank": "A"
+  },
+  "tests/unittest/test_progress_comment.py": {
+    "mi": 44.38539185840702,
+    "rank": "A"
+  },
+  "tests/unittest/test_prompt_attempt_initial_count.py": {
+    "mi": 55.42777066966074,
+    "rank": "A"
+  },
+  "tests/unittest/test_prompt_fit_template_reuse.py": {
+    "mi": 45.914752544141976,
+    "rank": "A"
+  },
+  "tests/unittest/test_prompt_fragments.py": {
+    "mi": 24.45575597978663,
+    "rank": "A"
+  },
+  "tests/unittest/test_provider_http_timeout.py": {
+    "mi": 30.214560028282452,
+    "rank": "A"
+  },
+  "tests/unittest/test_provider_language_cache.py": {
+    "mi": 36.260817127445435,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_add_docs_prompt_contract.py": {
+    "mi": 70.44404409360986,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_agent_routing.py": {
+    "mi": 3.5533718714934848,
+    "rank": "C"
+  },
+  "tests/unittest/test_pr_code_suggestions_core.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/unittest/test_pr_code_suggestions_deprecated_spelling.py": {
+    "mi": 46.51093186633724,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_code_suggestions_filtering.py": {
+    "mi": 39.24562893351744,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_code_suggestions_lifecycle.py": {
+    "mi": 14.037992897591923,
+    "rank": "B"
+  },
+  "tests/unittest/test_pr_code_suggestions_pr_chat.py": {
+    "mi": 41.316812657762995,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_code_suggestions_rendering.py": {
+    "mi": 25.041556623991838,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_command_profiles.py": {
+    "mi": 19.50585190340269,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_description.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/unittest/test_pr_description_help_rendering.py": {
+    "mi": 41.985593245940116,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_description_lifecycle.py": {
+    "mi": 39.77633348984221,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_description_output_core.py": {
+    "mi": 19.783038105093727,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_generate_labels.py": {
+    "mi": 61.50080925609594,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_help_docs_path_containment.py": {
+    "mi": 40.35157932435613,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_help_docs_prompt_fitting.py": {
+    "mi": 56.00185392508677,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_help_docs_row_isolation.py": {
+    "mi": 38.15953296299327,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_help_message_fallback.py": {
+    "mi": 10.52351510200474,
+    "rank": "B"
+  },
+  "tests/unittest/test_pr_help_message_rendering.py": {
+    "mi": 27.421723277425492,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_help_message_resources.py": {
+    "mi": 21.00118382556268,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_line_questions_context_budget.py": {
+    "mi": 32.31732487115689,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_processing_core.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/unittest/test_pr_questions_helpers.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/unittest/test_pr_questions_skills.py": {
+    "mi": 44.60892150517606,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_reviewer_core.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/unittest/test_pr_reviewer_fallback_validation.py": {
+    "mi": 40.07632779813345,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_reviewer_finding_state.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/unittest/test_pr_reviewer_prompt_contract.py": {
+    "mi": 71.47630078921745,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_reviewer_prompt_example_types.py": {
+    "mi": 74.42412202070247,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_reviewer_untrusted_content_contract.py": {
+    "mi": 99.93540562390959,
+    "rank": "A"
+  },
+  "tests/unittest/test_pr_update_changelog.py": {
+    "mi": 5.423495034831142,
+    "rank": "C"
+  },
+  "tests/unittest/test_publish_workflow_security.py": {
+    "mi": 35.321891929736346,
+    "rank": "A"
+  },
+  "tests/unittest/test_push_outputs.py": {
+    "mi": 11.594202295392867,
+    "rank": "B"
+  },
+  "tests/unittest/test_push_outputs_from_tools.py": {
+    "mi": 47.628579786918664,
+    "rank": "A"
+  },
+  "tests/unittest/test_push_trigger_slot.py": {
+    "mi": 37.61087548629774,
+    "rank": "A"
+  },
+  "tests/unittest/test_pyproject_settings_security.py": {
+    "mi": 59.939867828964935,
+    "rank": "A"
+  },
+  "tests/unittest/test_pytest_configuration.py": {
+    "mi": 50.06112224012872,
+    "rank": "A"
+  },
+  "tests/unittest/test_register_git_provider.py": {
+    "mi": 48.22155222997338,
+    "rank": "A"
+  },
+  "tests/unittest/test_repetition_penalty_coercion.py": {
+    "mi": 59.331682014702224,
+    "rank": "A"
+  },
+  "tests/unittest/test_repo_context.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/unittest/test_repo_context_fences.py": {
+    "mi": 57.495171297165825,
+    "rank": "A"
+  },
+  "tests/unittest/test_resolved_finding_rendering.py": {
+    "mi": 75.10731329721152,
+    "rank": "A"
+  },
+  "tests/unittest/test_retry_with_fallback_models.py": {
+    "mi": 24.503599023394415,
+    "rank": "A"
+  },
+  "tests/unittest/test_review_chunk_merge.py": {
+    "mi": 41.53715358479024,
+    "rank": "A"
+  },
+  "tests/unittest/test_review_comment_identity.py": {
+    "mi": 32.80392342313099,
+    "rank": "A"
+  },
+  "tests/unittest/test_review_dismissed_findings.py": {
+    "mi": 43.12734752544256,
+    "rank": "A"
+  },
+  "tests/unittest/test_review_finding_persistence.py": {
+    "mi": 38.001782000307486,
+    "rank": "A"
+  },
+  "tests/unittest/test_review_finding_state.py": {
+    "mi": 19.652027358905123,
+    "rank": "A"
+  },
+  "tests/unittest/test_review_large_diff_chunking.py": {
+    "mi": 13.703315065337254,
+    "rank": "B"
+  },
+  "tests/unittest/test_review_merge_field_shapes.py": {
+    "mi": 66.1641861294258,
+    "rank": "A"
+  },
+  "tests/unittest/test_review_persistent_comment_authorship.py": {
+    "mi": 35.46735595408403,
+    "rank": "A"
+  },
+  "tests/unittest/test_review_security_concerns_shape.py": {
+    "mi": 52.47337991526117,
+    "rank": "A"
+  },
+  "tests/unittest/test_review_state_marker_escaping.py": {
+    "mi": 73.2603185162277,
+    "rank": "A"
+  },
+  "tests/unittest/test_review_todo_sections_shape.py": {
+    "mi": 43.7120908812077,
+    "rank": "A"
+  },
+  "tests/unittest/test_run_details.py": {
+    "mi": 28.228053656722167,
+    "rank": "A"
+  },
+  "tests/unittest/test_run_details_ai_handlers.py": {
+    "mi": 51.11869281171329,
+    "rank": "A"
+  },
+  "tests/unittest/test_run_details_wiring.py": {
+    "mi": 45.24584184849812,
+    "rank": "A"
+  },
+  "tests/unittest/test_run_status_acknowledgment.py": {
+    "mi": 27.33775599762077,
+    "rank": "A"
+  },
+  "tests/unittest/test_secret_provider_factory.py": {
+    "mi": 56.803039511220796,
+    "rank": "A"
+  },
+  "tests/unittest/test_self_reflect_fallback.py": {
+    "mi": 44.76496102707125,
+    "rank": "A"
+  },
+  "tests/unittest/test_should_process_pr_logic_shared.py": {
+    "mi": 61.57338664195848,
+    "rank": "A"
+  },
+  "tests/unittest/test_show_relevant_configurations.py": {
+    "mi": 78.0947084286587,
+    "rank": "A"
+  },
+  "tests/unittest/test_show_run_details.py": {
+    "mi": 27.875815342555562,
+    "rank": "A"
+  },
+  "tests/unittest/test_silent_failure_fallbacks.py": {
+    "mi": 60.49976555323716,
+    "rank": "A"
+  },
+  "tests/unittest/test_similar_issue_embeddings.py": {
+    "mi": 39.640401678994735,
+    "rank": "A"
+  },
+  "tests/unittest/test_similar_issue_hit_register.py": {
+    "mi": 51.95948236613482,
+    "rank": "A"
+  },
+  "tests/unittest/test_similar_issue_lancedb_ingest.py": {
+    "mi": 14.427381548623911,
+    "rank": "B"
+  },
+  "tests/unittest/test_similar_issue_lancedb_query.py": {
+    "mi": 53.41264724326735,
+    "rank": "A"
+  },
+  "tests/unittest/test_similar_issue_pinecone.py": {
+    "mi": 22.599140226947743,
+    "rank": "A"
+  },
+  "tests/unittest/test_similar_issue_provider_capability.py": {
+    "mi": 57.51897059396927,
+    "rank": "A"
+  },
+  "tests/unittest/test_similar_issue_qdrant_collection.py": {
+    "mi": 43.20181120388909,
+    "rank": "A"
+  },
+  "tests/unittest/test_similar_issue_qdrant_credentials.py": {
+    "mi": 47.81854270275118,
+    "rank": "A"
+  },
+  "tests/unittest/test_similar_issue_qdrant_ingest.py": {
+    "mi": 34.383756503252826,
+    "rank": "A"
+  },
+  "tests/unittest/test_skills_context_budget.py": {
+    "mi": 54.295157297493894,
+    "rank": "A"
+  },
+  "tests/unittest/test_skills_loader.py": {
+    "mi": 18.011938675622822,
+    "rank": "B"
+  },
+  "tests/unittest/test_special_token_literals.py": {
+    "mi": 43.804528393421386,
+    "rank": "A"
+  },
+  "tests/unittest/test_streaming_api_error_construction.py": {
+    "mi": 14.694548131005421,
+    "rank": "B"
+  },
+  "tests/unittest/test_suggestions_score_threshold_coercion.py": {
+    "mi": 55.160399161522584,
+    "rank": "A"
+  },
+  "tests/unittest/test_suggestion_chunk_recovery.py": {
+    "mi": 17.48727922205533,
+    "rank": "B"
+  },
+  "tests/unittest/test_telemetry_config.py": {
+    "mi": 44.42322793778223,
+    "rank": "A"
+  },
+  "tests/unittest/test_telemetry_exporter_types.py": {
+    "mi": 59.26435715556155,
+    "rank": "A"
+  },
+  "tests/unittest/test_telemetry_privacy.py": {
+    "mi": 39.01219929030888,
+    "rank": "A"
+  },
+  "tests/unittest/test_telemetry_prometheus.py": {
+    "mi": 63.705518255545,
+    "rank": "A"
+  },
+  "tests/unittest/test_telemetry_prometheus_multiproc.py": {
+    "mi": 74.79518039068988,
+    "rank": "A"
+  },
+  "tests/unittest/test_telemetry_shutdown.py": {
+    "mi": 54.20618842918262,
+    "rank": "A"
+  },
+  "tests/unittest/test_telemetry_token_usage.py": {
+    "mi": 42.98446265876715,
+    "rank": "A"
+  },
+  "tests/unittest/test_ticket_compliance.py": {
+    "mi": 12.397032103687835,
+    "rank": "B"
+  },
+  "tests/unittest/test_ticket_compliance_non_list.py": {
+    "mi": 59.41250970143751,
+    "rank": "A"
+  },
+  "tests/unittest/test_ticket_extraction_async.py": {
+    "mi": 0.0,
+    "rank": "C"
+  },
+  "tests/unittest/test_ticket_pr_compliance_capabilities.py": {
+    "mi": 15.046064019833894,
+    "rank": "B"
+  },
+  "tests/unittest/test_token_handler.py": {
+    "mi": 31.719618849391363,
+    "rank": "A"
+  },
+  "tests/unittest/test_tool_capability_guard_contract.py": {
+    "mi": 64.488469566226,
+    "rank": "A"
+  },
+  "tests/unittest/test_tool_output_reserve_forwarding.py": {
+    "mi": 24.366632796123547,
+    "rank": "A"
+  },
+  "tests/unittest/test_to_hunk_only_patch.py": {
+    "mi": 60.34288912416956,
+    "rank": "A"
+  },
+  "tests/unittest/test_try_fix_yaml.py": {
+    "mi": 41.82263201424523,
+    "rank": "A"
+  },
+  "tests/unittest/test_unreachable_code.py": {
+    "mi": 61.09271151633644,
+    "rank": "A"
+  },
+  "tests/unittest/test_verbosity_level_coercion.py": {
+    "mi": 51.07698100223173,
+    "rank": "A"
+  },
+  "tests/unittest/test_verified_silent_corruption.py": {
+    "mi": 43.397701953652955,
+    "rank": "A"
+  },
+  "tests/unittest/test_verify_signature.py": {
+    "mi": 59.1883430401402,
+    "rank": "A"
+  },
+  "tests/unittest/test_webhook_body_size_limit.py": {
+    "mi": 31.50840492249131,
+    "rank": "A"
+  },
+  "tests/unittest/test_webhook_logic_core.py": {
+    "mi": 10.227317182992604,
+    "rank": "B"
+  },
+  "tests/unittest/test_webhook_verify_before_parse.py": {
+    "mi": 39.63900045220132,
+    "rank": "A"
+  },
+  "tests/unittest/_reaction_helpers.py": {
+    "mi": 100.0,
+    "rank": "A"
+  },
+  "tests/unittest/_settings_helpers.py": {
+    "mi": 83.04250154094369,
+    "rank": "A"
+  },
+  "tests/unittest/_telemetry_helpers.py": {
+    "mi": 100.0,
+    "rank": "A"
+  }
+}
